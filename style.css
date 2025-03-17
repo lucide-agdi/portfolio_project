@@ -25,6 +25,7 @@ body{
 	position: absolute;
 	display: none;
 	margin-top: 10%;
+	list-style: none;
 	margin-left: 55%;
 }
 #nav-bar #navlinks li{
@@ -361,6 +362,21 @@ footer{
 	background-color: rgb(40, 91, 142);
 	color: #fff;
 	text-align: center;
+}
+footer #navlinks{
+	padding-right: 18px;
+	list-style: none;
+}
+footer #navlinks li{
+	display: inline;
+}
+footer #navlinks li a{
+	text-decoration: none;
+	color: #000;
+
+} 
+footer #navlinks li a i{
+	color: #fff;
 }
 
 
