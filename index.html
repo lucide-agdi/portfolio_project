@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>PORTFOLIO||~~</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<nav  id="nav-bar" >
+		<h2 class="text-light">PORTFOLIO <sup>2</sup></h2>
+		<ul class="navbar col-sm-4" id="navlinks">
+			<li><a href="#header">Home</a></li>
+			<li><a href="#aboutus">About us</a></li>
+			<li><a href="#projects">Projects</a></li>
+			<li><a href="#contactus">Contact us</a></li>
+		</ul>
+		<img src="images/menubar.png" id="menu" width="40" onclick="showmenu();">
+		<img src="images/close.png" id="hide" width="40" onclick="Hidemenu();" style="display: none;">
+	</nav>
+	<script>
+		function showmenu(){
+			document.getElementById("navlinks").style.display="block";
+            document.getElementById("nav-bar").style.height="30vh";
+			document.getElementById("nav-bar").style.transition=".3s";
+			document.getElementById("menu").style.display="none";
+			document.getElementById("hide").style.display="block";
+		}
+		function Hidemenu(){
+			document.getElementById("navlinks").style.display="none";
+			document.getElementById("hide").style.display="none";
+			document.getElementById("menu").style.display="block";
+            document.getElementById("nav-bar").style.height="8vh";			
+		}
+	</script>
+	<section id="header">
+		<article class="content">
+			<h2>Your Website development journey starts with us</h2>
+			<p>"Working with our team is the best choice to ensure your website awareness"</p>
+		</article>
+		<br>
+		<fieldset class="team-des">
+			<legend>Meet our team</legend>
+			<div class="container col-sm-2 pm">
+				<img src="images/eloi.jpg" width="100">
+				<p><b>IRAMBONA Eloi</b><br><i>Project manager</i></p>
+			</div>
+			<div class="container col-sm-2 ux">
+				<img src="images/irene.jpg" width="100">
+				<p><b>IRUMVA Irene</b><br><i>UI/UX Designer</i></p>
+			</div>		
+			<div class="container col-sm-2 f-e">
+				<img src="images/lucide.jpg" width="100">
+				<p><b>IRUMVA Lucide</b><br><i>Front-end Developer</i></p>
+			</div>		
+			<div class="container col-sm-2 b-e">
+				<img src="images/ivah.jpg" width="100">
+				<p><b>ISHIMWE Ivan</b><br><i>Back-end Developer</i></p>
+			</div>		
+			<div class="container col-sm-2 c-c">
+				<img src="images/dany.jpg" width="100">
+				<p><b> ISINGIZWE Danny</b><br><i>Content Creator</i></p>
+			</div>
+			<div class="container col-sm-2 seo">
+				<img src="images/jeann.jpg" width="100">
+				<p><b>BAMURANGE Jeanne</b><br><i>SEO Specialist</i></p>
+			</div>
+		</fieldset>
+	</section>
+	<section id="aboutus">
+			<br>
+			<fieldset class="team-des">
+				<legend style="color: rgb(40, 91, 142);">About us</legend>
+				<div class="container col-sm-2 pm">
+					<table>
+						<tr>
+							<td><img src="images/eloi.jpg" width="100"></td>
+							<td><p><b>IRAMBONA Eloi</b><br><i>Project manager</i></p></td>
+						</tr>
+						<tr>
+							<td colspan="2"><p>I'm Eloi IRAMBONA, I live in Musanze. I am currently studying Computer Science at INES Ruhengeri.</p></td>
+						</tr>
+						<tr>
+							<td colspan="2">
+								<ul style="list-style: none;">
+									<label><b>MY SKILLS</b></label>
+									<li><b>&star;</b> Web designing</li>
+									<li><b>&star;</b> Database management</li>
+									<li><b>&star;</b> Project management</li>
+									<li><b>&star;</b> Leadership </li>
+								</ul>
+							</td>
+						</tr>
+					</table>
+				</div>
+				<div class="container col-sm-2 ux">
+					<table>
+						<tr>
+							<td><img src="images/irene.jpg" width="100"></td>
+							<td><p><b>IRUMVA Irene</b><br><i>UI/UX Designer</i></p></td>
+						</tr>
+						<tr>
+							<td colspan="2"><p>I'm Irene IRUMVA, I live in SUSA. I am currently studying Computer Science at INES Ruhengeri.</p></td>
+						</tr>
+						<tr>
+							<td colspan="2">
+								<ul style="list-style: none;">
+									<label><b>MY SKILLS</b></label>
+									<li><b>&star;</b> Website designing</li>
+									<li><b>&star;</b> Database management</li>
+									<li><b>&star;</b> Graphic designing</li>
+									<li><b>&star;</b> UI/UX Designer</li>
+								</ul>
+							</td>
+						</tr>
+					</table>
+					
+					
+				</div>		
+				<div class="container col-sm-2 f-e">
+					<table>
+						<tr>
+							<td><img src="images/lucide.jpg" width="100"></td>
+							<td><p><b>IRUMVA Lucide</b><br><i>Front-end Developer</i></p></td>
+						</tr>
+						<tr>
+							<td colspan="2"><p>I'm Lucide IRUMVA, I live in KINIGI. I am currently studying Computer Science at INES Ruhengeri.</p></td>
+						</tr>
+						<tr>
+							<td colspan="2">
+								<ul style="list-style: none;">
+									<label><b>MY SKILLS</b></label>
+									<li><b>&star;</b> Website designing</li>
+									<li><b>&star;</b> Database Designing</li>
+									<li><b>&star;</b> Front-end designing</li>
+									<li><b>&star;</b> UI Designer</li>
+								</ul>
+							</td>
+						</tr>
+					</table>
+					
+					
+				</div>		
+				<div class="container col-sm-2 b-e">
+					<table>
+						<tr>
+							<td><img src="images/ivah.jpg" width="100"></td>
+							<td><p><b>ISHIMWE Ivan</b><br><i>Back-end Developer</i></p></td>
+						</tr>
+						<tr>
+							<td colspan="2"><p>I'm Ivan ISHIMWE, I live in SUSA. I am currently studying Computer Science at INES Ruhengeri.</p></td>
+						</tr>
+						<tr>
+							<td colspan="2">
+								<ul style="list-style: none;">
+									<label><b>MY SKILLS</b></label>
+									<li><b>&star;</b> Web designing</li>
+									<li><b>&star;</b> Database management</li>
+									<li><b>&star;</b> Back-end designing</li>
+									<li><b>&star;</b> Programming</li>
+								</ul>
+							</td>
+						</tr>
+
+					</table>
+					
+					
+				</div>		
+				<div class="container col-sm-2 c-c">
+						<table>
+							<tr>
+								<td><img src="images/dany.jpg" width="100"></td>
+								<td><p><b> ISINGIZWE Danny</b><br><i>Content Creator</i></p></td>
+							</tr>
+							<tr>
+								<td colspan="2"><p>I'm Danny ISINGIZWE, I live in GAKENKE. I am currently studying Computer Science at INES Ruhengeri.</p></td>
+							</tr>
+							<tr>
+								<td colspan="2">
+									<ul style="list-style: none;">
+										<label><b>MY SKILLS</b></label>
+										<li><b>&star;</b> Content creation</li>
+										<li><b>&star;</b> Web designing</li>
+										<li><b>&star;</b> Database management</li>
+									</ul>
+								</td>
+							</tr>
+						</table>				
+				</div>
+				<div class="container col-sm-2 seo">
+					<table>
+						<tr>
+							<td><img src="images/jeann.jpg" width="100"></td>
+							<td><p><b>BAMURANGE Jeanne</b><br><i>SEO Specialist</i></p></td>
+						</tr>
+						<tr>
+							<td colspan="2"><p>I'm Jeanne BAMURANGE, I live in Karisimbi. I am currently studying Computer Science at INES Ruhengeri.</p></td>
+						</tr>
+						<tr>
+							<td colspan="2">
+								<ul style="list-style: none;">
+									<label><b>MY SKILLS</b></label>
+									<li><b>&star;</b> Search Engine Optimization(SEO) Specialist</li>
+									<li><b>&star;</b> Web application designing</li>
+									<li><b>&star;</b> Database management</li>
+								</ul>
+							</td>
+						</tr>
+					</table>
+				</div>
+			</fieldset>
+		</section>
+
+
+
+
+		<section id="projects">
+			<legend>Projects</legend>
+			<article>
+				<h2>Our Completed projects</h2>
+				<p>Here is list of completed projects that we worked on</p>
+			</article>
+			<a href="https://lucide-agdi.github.io/wisdom_school/" target="_blank" class="st">
+				<div class="col-sm-6">
+					<img src="images/logo.png"  width="100">
+					<p><b>WISDOM_SCHOOL</b></p>
+				</div>				
+			</a>
+			<a href="https://irambonaeloi.github.io/Country-R/" target="_blank" class="nd">
+				<div class="col-sm-2">
+					<img src="images/c_ride.jpg"  width="80">
+					<p><b><font color="darkblue">C</font>RIDE</b></p>
+				</div>				
+			</a>
+			<ul style="list-style: none;">
+				<li><b>&star;</b>Completed projects: <b>2+</b></li>
+				<li><b>&star;</b>Current project: <b>4+</b></li>
+			</ul>
+		</section>
+
+
+		<section id="contactus">
+			<legend>Contact us</legend>
+			<form>
+				<h2 class="text-dark">Get in touch with us</h2>
+				<label for="names">Your names:</label>
+				<input type="text" placeholder="Ex:John dyin" class="form-control" required>
+				<br>
+				<label for="email">Your email:</label>
+				<input type="email" placeholder="Ex:Johndyin@gmail.com" class="form-control" required>
+				<br>
+				<input type="submit" value="Send us Message" class="btn btn-primary">
+			</form>
+			<br><br>
+			<div>
+				<h2>Contact information</h2>
+				<p><b>Phone 1:</b><a href="#">250791893566</a></p>
+				<p><b>Phone 2:</b><a href="#">250791893566</a></p>
+				<p><b>Email</b><a href="#">info.pm@gmail.com</a></p>
+				<p><b>Address</b><a href="#">P.box 233 MUSANZE</a></p>
+			</div>
+		</section>
+		<footer>
+			<p>&copy;All right reserved 2025</p>
+			<p>GROUP 2</p>
+		</footer>
+</body>
+</html>
